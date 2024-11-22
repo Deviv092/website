@@ -144,21 +144,6 @@ header nav a:hover {
   opacity: 0;
   animation-fill-mode: forwards;
 }
-.libutton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 7px;
-  text-align: center;
-  outline: none;
-  text-decoration: none !important;
-  color: #ffffff !important;
-  width: 200px;
-  height: 32px;
-  border-radius: 16px;
-  background-color: #0a66c2;
-  font-family: "SF Pro Text", Helvetica, sans-serif;
-}
 
 .btn:hover {
   background-color: #c0392b;
