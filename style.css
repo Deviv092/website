@@ -58,8 +58,8 @@ header {
   transition: background-color 0.3s ease;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -103,7 +103,7 @@ header nav a:hover {
 
 /* Hero Section Styles */
 #hero {
-  background-color: #6b4f5a; 
+  background-color: #6b4f5a;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -143,6 +143,21 @@ header nav a:hover {
   animation: fadeInUp 1s ease 0.4s;
   opacity: 0;
   animation-fill-mode: forwards;
+}
+.libutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #0a66c2;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
 }
 
 .btn:hover {
